@@ -8879,9 +8879,9 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">dev.oss-playground.com</stringProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
                 <stringProp name="HTTPSampler.path">${application.postfix}/rest/external-share/1.0/share</stringProp>
                 <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -8952,11 +8952,11 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">dev.oss-playground.com</stringProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${application.postfix}/rest/external-share/1.0/share?status=all&amp;limit=20&amp;offset=0&amp;contents=${share-content-id}</stringProp>
+                <stringProp name="HTTPSampler.path">$${application.postfix}/rest/external-share/1.0/share?status=all&amp;limit=20&amp;offset=0&amp;contents=${share-content-id}</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -9013,9 +9013,9 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">dev.oss-playground.com</stringProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
                 <stringProp name="HTTPSampler.path">${application.postfix}/plugins/servlet/share/content/118f98f3-cbcb-4cd8-90f3-47c3cdc4f822</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
