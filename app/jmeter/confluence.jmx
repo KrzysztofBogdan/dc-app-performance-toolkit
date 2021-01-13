@@ -8874,7 +8874,7 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;contentId&quot;:&quot;38338651&quot;}</stringProp>
+                      <stringProp name="Argument.value">{&quot;contentId&quot;:${page_id}}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
@@ -8956,7 +8956,7 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">$${application.postfix}/rest/external-share/1.0/share?status=all&amp;limit=20&amp;offset=0&amp;contents=${share-content-id}</stringProp>
+                <stringProp name="HTTPSampler.path">${application.postfix}/rest/external-share/1.0/share?status=all&amp;limit=20&amp;offset=0&amp;contents=${share-content-id}</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -9017,7 +9017,7 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${application.postfix}/plugins/servlet/share/content/118f98f3-cbcb-4cd8-90f3-47c3cdc4f822</stringProp>
+                <stringProp name="HTTPSampler.path">${application.postfix}/plugins/servlet/share/content/${share-uuid}</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
