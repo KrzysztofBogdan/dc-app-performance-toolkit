@@ -9,3 +9,8 @@ outputs/
 *.log
 *.pyc
 local_*.yml
+
+app/bin
+app/lib
+app/lib64
+app/share
